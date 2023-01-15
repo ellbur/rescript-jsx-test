@@ -1,0 +1,22 @@
+{
+  "name": "@ellbur/rescript-jsx-test",
+  "version": "0.0.1",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": {
+    "module": "es6-global"
+  },
+  "suffix": ".bs.js",
+  "external-stdlib" : "@rescript/std",
+  "jsx": { "version": 4, "mode": "automatic" },
+  "bs-dependencies": [
+    "@ryyppy/rescript-promise",
+    "rescript-webapi",
+    "@rescript/react"
+  ],
+  "warnings": {
+    "error" : "+101"
+  }
+}
